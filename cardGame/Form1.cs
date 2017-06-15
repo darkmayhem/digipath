@@ -36,6 +36,7 @@ namespace cardGame
             {
                 sheet.Add(new XElement("name", sh.name));
                 sheet.Add(new XElement("alignment", sh.alignment));
+                sheet.Add(new XElement("class", sh.klasa));
                 sheet.Add(new XElement("race", sh.race));
                 sheet.Add(new XElement("size", sh.size));
                 sheet.Add(new XElement("description", sh.description));
