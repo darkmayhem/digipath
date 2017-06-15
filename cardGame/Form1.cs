@@ -95,35 +95,54 @@ namespace cardGame
         private void calculate_Click(object sender, EventArgs e)
         {
             save.Enabled = true;
-
-            
-            sh.str = Int32.Parse(STR.Text);
-            sh.dex = Int32.Parse(DEX.Text);
-            sh.con = Int32.Parse(CON.Text);
-            sh.intelligence = Int32.Parse(INT.Text);
-            sh.wis = Int32.Parse(WIS.Text);
-            sh.charisma = Int32.Parse(CHA.Text);
+            bool nula = false; 
+            if (STR.Text != "") sh.str = Int32.Parse(STR.Text);
+            else nula = true;
+            if (DEX.Text !="")  sh.dex = Int32.Parse(DEX.Text);
+            else nula = true;
+            if (CON.Text !="")  sh.con = Int32.Parse(CON.Text);
+            else nula = true;
+            if (INT.Text !="") sh.intelligence = Int32.Parse(INT.Text);
+            else nula = true;
+            if (WIS.Text !="") sh.wis = Int32.Parse(WIS.Text);
+            else nula = true;
+            if (CHA.Text !="") sh.charisma = Int32.Parse(CHA.Text);
+            else nula = true;
             sh.name = name_box.Text;
             sh.klasa = class_box.Text;
             sh.race = race_box.Text;
             sh.size = size_box.Text;
             sh.alignment = alignment_box.Text;
-            sh.speed = Int32.Parse(speed_box.Text);
-            sh.hp = Int32.Parse(hp_box.Text);
+            if (speed_box.Text!="") sh.speed = Int32.Parse(speed_box.Text);
+            else nula = true;
+            if (hp_box.Text!="") sh.hp = Int32.Parse(hp_box.Text);
+            else nula = true;
             sh.description = description_box.Text;
-            sh.ac_armor = Int32.Parse(ac_armor.Text);
-            sh.ac_shield = Int32.Parse(ac_shield.Text);
-            sh.ac_natural = Int32.Parse(ac_natural.Text);
-            sh.fortitude = Int32.Parse(fort_box.Text);
-            sh.reflex = Int32.Parse(reflex_box.Text);
-            sh.will = Int32.Parse(will_box.Text);
-            sh.bab = Int32.Parse(bab_box.Text);
-            sh.acrobatics = Int32.Parse(acrobatics_box.Text);
-            sh.appraise = Int32.Parse(appraise_box.Text);
-            sh.bluff = Int32.Parse(bluff_box.Text);
-            sh.climb = Int32.Parse(climb_box.Text);
-            sh.diplomacy = Int32.Parse(diplomacy_box.Text);
-
+            if (ac_armor.Text!="") sh.ac_armor = Int32.Parse(ac_armor.Text);
+            else nula = true;
+            if (ac_shield.Text!="")sh.ac_shield = Int32.Parse(ac_shield.Text);
+            else nula = true;
+            if (ac_natural.Text!="") sh.ac_natural = Int32.Parse(ac_natural.Text);
+            else nula = true;
+            if (fort_box.Text != "") sh.fortitude = Int32.Parse(fort_box.Text);
+            else nula = true;
+            if (reflex_box.Text != "") sh.reflex = Int32.Parse(reflex_box.Text);
+            else nula = true;
+            if (will_box.Text != "") sh.will = Int32.Parse(will_box.Text);
+            else nula = true;
+            if (bab_box.Text != "") sh.bab = Int32.Parse(bab_box.Text);
+            else nula = true;
+            if (acrobatics_box.Text != "") sh.acrobatics = Int32.Parse(acrobatics_box.Text);
+            else nula = true;
+            if (appraise_box.Text != "") sh.appraise = Int32.Parse(appraise_box.Text);
+            else nula = true;
+            if (bluff_box.Text != "") sh.bluff = Int32.Parse(bluff_box.Text);
+            else nula = true;
+            if (climb_box.Text != "") sh.climb = Int32.Parse(climb_box.Text);
+            else nula = true;
+            if (diplomacy_box.Text != "") sh.diplomacy = Int32.Parse(diplomacy_box.Text);
+            else nula = true;
+            if (nula) MessageBox.Show("Jedno ili više brojčanih polja nije uneseno. Njihova vrijednost će se računati kao 0.", "Upozorenje", MessageBoxButtons.OK);
             sh.modifiersCalculation();
             //ispunjavanje forme
             str_mod.Text = sh.str_mod.ToString();
