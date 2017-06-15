@@ -94,6 +94,7 @@ namespace cardGame
         private void calculate_Click(object sender, EventArgs e)
         {
             save.Enabled = true;
+
             
             sh.str = Int32.Parse(STR.Text);
             sh.dex = Int32.Parse(DEX.Text);
@@ -177,79 +178,79 @@ namespace cardGame
                         switch (x.Name)
                         {
                             case "name":
-                                sh.name = x.Value;
+                                sh.name = x.InnerText;
                                 break;
                             case "alignment":
-                                sh.alignment = x.Value;
+                                sh.alignment = x.InnerText;
                                 break;
                             case "class":
-                                sh.klasa = x.Value;
+                                sh.klasa = x.InnerText;
                                 break;
                             case "race":
-                                sh.race = x.Value;
+                                sh.race = x.InnerText;
                                 break;
                             case "size":
-                                sh.size = x.Value;
+                                sh.size = x.InnerText;
                                 break;
                             case "description":
-                                sh.description = x.Value;
+                                sh.description = x.InnerText;
                                 break;
                             case "speed":
-                                sh.speed = Int32.Parse(x.Value);
+                                sh.speed = Int32.Parse(x.InnerText);
                                 break;
                             case "strength":
-                                sh.str = Int32.Parse(x.Value);
+                                sh.str = Int32.Parse(x.InnerText);
                                 break;
                             case "dexterity":
-                                sh.dex = Int32.Parse(x.Value);
+                                sh.dex = Int32.Parse(x.InnerText);
                                 break;
                             case "constitution":
-                                sh.con = Int32.Parse(x.Value);
+                                sh.con = Int32.Parse(x.InnerText);
                                 break;
                             case "inteligence":
-                                sh.intelligence=Int32.Parse(x.Value);
+                                sh.intelligence=Int32.Parse(x.InnerText);
                                 break;
                             case "wisdom":
-                                sh.wis= Int32.Parse(x.Value);
+                                sh.wis= Int32.Parse(x.InnerText);
                                 break;
                             case "charisma":
-                                sh.charisma=Int32.Parse(x.Value);
+                                sh.charisma=Int32.Parse(x.InnerText);
                                 break;
                             case "hp":
-                                sh.hp= Int32.Parse(x.Value);
+                                sh.hp= Int32.Parse(x.InnerText);
                                 break;
                             case "armor_bonus":
-                                sh.ac_armor= Int32.Parse(x.Value);
+                                sh.ac_armor= Int32.Parse(x.InnerText);
                                 break;
                             case "shield_bonus":
-                                sh.ac_shield=Int32.Parse(x.Value);
+                                sh.ac_shield=Int32.Parse(x.InnerText);
                                 break;
                             case "natural_armor":
-                                sh.ac_natural= Int32.Parse(x.Value);
+                                sh.ac_natural= Int32.Parse(x.InnerText);
                                 break;
                             case "fortitude":
-                                sh.fortitude= Int32.Parse(x.Value);
+                                sh.fortitude= Int32.Parse(x.InnerText);
                                 break;
                             case "reflex":
-                                sh.reflex= Int32.Parse(x.Value);
+                                sh.reflex= Int32.Parse(x.InnerText);
                                 break;
                             case "will":
-                                sh.will= Int32.Parse(x.Value);
+                                sh.will= Int32.Parse(x.InnerText);
                                 break;
                             case "base_attack_bonus":
-                                sh.bab= Int32.Parse(x.Value);
+                                sh.bab= Int32.Parse(x.InnerText);
                                 break;
                             case "acrobatics":
-                                sh.acrobatics= Int32.Parse(x.Value);
+                                sh.acrobatics= Int32.Parse(x.InnerText);
                                 break;
                             case "bluff":
-                                sh.bluff= Int32.Parse(x.Value);
+                                sh.bluff= Int32.Parse(x.InnerText);
                                 break;
                             case "climb":
-                                sh.climb= Int32.Parse(x.Value);
+                                sh.climb= Int32.Parse(x.InnerText);
                                 break;
                             case "diplomacy":
-                                sh.diplomacy= Int32.Parse(x.Value);
+                                sh.diplomacy= Int32.Parse(x.InnerText);
                                 break;
                             default:
                                 break;
