@@ -337,6 +337,18 @@ namespace cardGame
             }
             
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newBtn_Click(object sender, EventArgs e)
+        {
+            string title = "Lik " + (tabControl1.TabCount + 1).ToString();
+            TabPage myTabPage = new TabPage(title);
+            tabControl1.TabPages.Add(myTabPage);
+        }
     }
     public class Sheet
         {
