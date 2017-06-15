@@ -141,61 +141,61 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.ac_ability1 = new System.Windows.Forms.TextBox();
+            this.diplomacy_ability1 = new System.Windows.Forms.TextBox();
+            this.climb_ability1 = new System.Windows.Forms.TextBox();
+            this.diplomacy_box1 = new System.Windows.Forms.TextBox();
+            this.climb_box1 = new System.Windows.Forms.TextBox();
+            this.diplomacy_total1 = new System.Windows.Forms.TextBox();
+            this.climb_total1 = new System.Windows.Forms.TextBox();
+            this.bluff_ability1 = new System.Windows.Forms.TextBox();
+            this.appraise_ability1 = new System.Windows.Forms.TextBox();
+            this.acrobatics_ability1 = new System.Windows.Forms.TextBox();
+            this.bluff_box1 = new System.Windows.Forms.TextBox();
+            this.appraise_box1 = new System.Windows.Forms.TextBox();
+            this.acrobatics_box1 = new System.Windows.Forms.TextBox();
+            this.bluff_total1 = new System.Windows.Forms.TextBox();
+            this.appraise_total1 = new System.Windows.Forms.TextBox();
+            this.acrobatics_total1 = new System.Windows.Forms.TextBox();
+            this.rab1 = new System.Windows.Forms.TextBox();
+            this.mab1 = new System.Windows.Forms.TextBox();
+            this.bab_box1 = new System.Windows.Forms.TextBox();
+            this.will_ability1 = new System.Windows.Forms.TextBox();
+            this.reflex_ability1 = new System.Windows.Forms.TextBox();
+            this.fort_ability1 = new System.Windows.Forms.TextBox();
+            this.will_box1 = new System.Windows.Forms.TextBox();
+            this.reflex_box1 = new System.Windows.Forms.TextBox();
+            this.fort_box1 = new System.Windows.Forms.TextBox();
+            this.will_total1 = new System.Windows.Forms.TextBox();
+            this.reflex_total1 = new System.Windows.Forms.TextBox();
+            this.fort_total1 = new System.Windows.Forms.TextBox();
+            this.ac_natural1 = new System.Windows.Forms.TextBox();
+            this.ac_shield1 = new System.Windows.Forms.TextBox();
+            this.ac_armor1 = new System.Windows.Forms.TextBox();
             this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ac_total1 = new System.Windows.Forms.TextBox();
+            this.hp_box1 = new System.Windows.Forms.TextBox();
+            this.speed_box1 = new System.Windows.Forms.TextBox();
+            this.description_box1 = new System.Windows.Forms.RichTextBox();
+            this.alignment_box1 = new System.Windows.Forms.TextBox();
+            this.size_box1 = new System.Windows.Forms.TextBox();
+            this.race_box1 = new System.Windows.Forms.TextBox();
+            this.class_box1 = new System.Windows.Forms.TextBox();
+            this.name_box1 = new System.Windows.Forms.TextBox();
+            this.cha_mod1 = new System.Windows.Forms.TextBox();
+            this.wis_mod1 = new System.Windows.Forms.TextBox();
+            this.int_mod1 = new System.Windows.Forms.TextBox();
+            this.con_mod1 = new System.Windows.Forms.TextBox();
+            this.dex_mod1 = new System.Windows.Forms.TextBox();
+            this.str_mod1 = new System.Windows.Forms.TextBox();
+            this.CHA1 = new System.Windows.Forms.TextBox();
+            this.WIS1 = new System.Windows.Forms.TextBox();
+            this.INT1 = new System.Windows.Forms.TextBox();
+            this.CON1 = new System.Windows.Forms.TextBox();
+            this.DEX1 = new System.Windows.Forms.TextBox();
+            this.STR1 = new System.Windows.Forms.TextBox();
+            this.calculate_tab2 = new System.Windows.Forms.Button();
+            this.save_tab2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
@@ -244,6 +244,7 @@
             this.label96 = new System.Windows.Forms.Label();
             this.label97 = new System.Windows.Forms.Label();
             this.label98 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -253,7 +254,7 @@
             // 
             // load
             // 
-            this.load.Location = new System.Drawing.Point(195, 15);
+            this.load.Location = new System.Drawing.Point(222, 508);
             this.load.Name = "load";
             this.load.Size = new System.Drawing.Size(75, 23);
             this.load.TabIndex = 3;
@@ -263,7 +264,7 @@
             // 
             // newBtn
             // 
-            this.newBtn.Location = new System.Drawing.Point(276, 15);
+            this.newBtn.Location = new System.Drawing.Point(128, 15);
             this.newBtn.Name = "newBtn";
             this.newBtn.Size = new System.Drawing.Size(75, 23);
             this.newBtn.TabIndex = 4;
@@ -275,6 +276,7 @@
             // 
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.label51);
+            this.tabPage1.Controls.Add(this.load);
             this.tabPage1.Controls.Add(this.ac_ability);
             this.tabPage1.Controls.Add(this.diplomacy_ability);
             this.tabPage1.Controls.Add(this.climb_ability);
@@ -821,7 +823,7 @@
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(400, 508);
+            this.save.Location = new System.Drawing.Point(395, 508);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(75, 23);
             this.save.TabIndex = 0;
@@ -1343,63 +1345,64 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Controls.Add(this.textBox1);
-            this.tabPage2.Controls.Add(this.textBox2);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.textBox4);
-            this.tabPage2.Controls.Add(this.textBox5);
-            this.tabPage2.Controls.Add(this.textBox6);
-            this.tabPage2.Controls.Add(this.textBox7);
-            this.tabPage2.Controls.Add(this.textBox8);
-            this.tabPage2.Controls.Add(this.textBox9);
-            this.tabPage2.Controls.Add(this.textBox10);
-            this.tabPage2.Controls.Add(this.textBox11);
-            this.tabPage2.Controls.Add(this.textBox12);
-            this.tabPage2.Controls.Add(this.textBox13);
-            this.tabPage2.Controls.Add(this.textBox14);
-            this.tabPage2.Controls.Add(this.textBox15);
-            this.tabPage2.Controls.Add(this.textBox16);
-            this.tabPage2.Controls.Add(this.textBox17);
-            this.tabPage2.Controls.Add(this.textBox18);
-            this.tabPage2.Controls.Add(this.textBox19);
-            this.tabPage2.Controls.Add(this.textBox20);
-            this.tabPage2.Controls.Add(this.textBox21);
-            this.tabPage2.Controls.Add(this.textBox22);
-            this.tabPage2.Controls.Add(this.textBox23);
-            this.tabPage2.Controls.Add(this.textBox24);
-            this.tabPage2.Controls.Add(this.textBox25);
-            this.tabPage2.Controls.Add(this.textBox26);
-            this.tabPage2.Controls.Add(this.textBox27);
-            this.tabPage2.Controls.Add(this.textBox28);
-            this.tabPage2.Controls.Add(this.textBox29);
-            this.tabPage2.Controls.Add(this.textBox30);
-            this.tabPage2.Controls.Add(this.textBox31);
+            this.tabPage2.Controls.Add(this.ac_ability1);
+            this.tabPage2.Controls.Add(this.diplomacy_ability1);
+            this.tabPage2.Controls.Add(this.climb_ability1);
+            this.tabPage2.Controls.Add(this.diplomacy_box1);
+            this.tabPage2.Controls.Add(this.climb_box1);
+            this.tabPage2.Controls.Add(this.diplomacy_total1);
+            this.tabPage2.Controls.Add(this.climb_total1);
+            this.tabPage2.Controls.Add(this.bluff_ability1);
+            this.tabPage2.Controls.Add(this.appraise_ability1);
+            this.tabPage2.Controls.Add(this.acrobatics_ability1);
+            this.tabPage2.Controls.Add(this.bluff_box1);
+            this.tabPage2.Controls.Add(this.appraise_box1);
+            this.tabPage2.Controls.Add(this.acrobatics_box1);
+            this.tabPage2.Controls.Add(this.bluff_total1);
+            this.tabPage2.Controls.Add(this.appraise_total1);
+            this.tabPage2.Controls.Add(this.acrobatics_total1);
+            this.tabPage2.Controls.Add(this.rab1);
+            this.tabPage2.Controls.Add(this.mab1);
+            this.tabPage2.Controls.Add(this.bab_box1);
+            this.tabPage2.Controls.Add(this.will_ability1);
+            this.tabPage2.Controls.Add(this.reflex_ability1);
+            this.tabPage2.Controls.Add(this.fort_ability1);
+            this.tabPage2.Controls.Add(this.will_box1);
+            this.tabPage2.Controls.Add(this.reflex_box1);
+            this.tabPage2.Controls.Add(this.fort_box1);
+            this.tabPage2.Controls.Add(this.will_total1);
+            this.tabPage2.Controls.Add(this.reflex_total1);
+            this.tabPage2.Controls.Add(this.fort_total1);
+            this.tabPage2.Controls.Add(this.ac_natural1);
+            this.tabPage2.Controls.Add(this.ac_shield1);
+            this.tabPage2.Controls.Add(this.ac_armor1);
             this.tabPage2.Controls.Add(this.textBox32);
-            this.tabPage2.Controls.Add(this.textBox33);
-            this.tabPage2.Controls.Add(this.textBox34);
-            this.tabPage2.Controls.Add(this.textBox35);
-            this.tabPage2.Controls.Add(this.richTextBox1);
-            this.tabPage2.Controls.Add(this.textBox36);
-            this.tabPage2.Controls.Add(this.textBox37);
-            this.tabPage2.Controls.Add(this.textBox38);
-            this.tabPage2.Controls.Add(this.textBox39);
-            this.tabPage2.Controls.Add(this.textBox40);
-            this.tabPage2.Controls.Add(this.textBox41);
-            this.tabPage2.Controls.Add(this.textBox42);
-            this.tabPage2.Controls.Add(this.textBox43);
-            this.tabPage2.Controls.Add(this.textBox44);
-            this.tabPage2.Controls.Add(this.textBox45);
-            this.tabPage2.Controls.Add(this.textBox46);
-            this.tabPage2.Controls.Add(this.textBox47);
-            this.tabPage2.Controls.Add(this.textBox48);
-            this.tabPage2.Controls.Add(this.textBox49);
-            this.tabPage2.Controls.Add(this.textBox50);
-            this.tabPage2.Controls.Add(this.textBox51);
-            this.tabPage2.Controls.Add(this.textBox52);
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.ac_total1);
+            this.tabPage2.Controls.Add(this.hp_box1);
+            this.tabPage2.Controls.Add(this.speed_box1);
+            this.tabPage2.Controls.Add(this.description_box1);
+            this.tabPage2.Controls.Add(this.alignment_box1);
+            this.tabPage2.Controls.Add(this.size_box1);
+            this.tabPage2.Controls.Add(this.race_box1);
+            this.tabPage2.Controls.Add(this.class_box1);
+            this.tabPage2.Controls.Add(this.name_box1);
+            this.tabPage2.Controls.Add(this.cha_mod1);
+            this.tabPage2.Controls.Add(this.wis_mod1);
+            this.tabPage2.Controls.Add(this.int_mod1);
+            this.tabPage2.Controls.Add(this.con_mod1);
+            this.tabPage2.Controls.Add(this.dex_mod1);
+            this.tabPage2.Controls.Add(this.str_mod1);
+            this.tabPage2.Controls.Add(this.CHA1);
+            this.tabPage2.Controls.Add(this.WIS1);
+            this.tabPage2.Controls.Add(this.INT1);
+            this.tabPage2.Controls.Add(this.CON1);
+            this.tabPage2.Controls.Add(this.DEX1);
+            this.tabPage2.Controls.Add(this.STR1);
+            this.tabPage2.Controls.Add(this.calculate_tab2);
+            this.tabPage2.Controls.Add(this.save_tab2);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label52);
             this.tabPage2.Controls.Add(this.label53);
@@ -1478,241 +1481,241 @@
             this.label2.Text = "+";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // ac_ability1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.LightGray;
-            this.textBox1.Location = new System.Drawing.Point(259, 337);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(22, 20);
-            this.textBox1.TabIndex = 314;
+            this.ac_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.ac_ability1.Location = new System.Drawing.Point(259, 337);
+            this.ac_ability1.Name = "ac_ability1";
+            this.ac_ability1.Size = new System.Drawing.Size(22, 20);
+            this.ac_ability1.TabIndex = 314;
             // 
-            // textBox2
+            // diplomacy_ability1
             // 
-            this.textBox2.BackColor = System.Drawing.Color.LightGray;
-            this.textBox2.Location = new System.Drawing.Point(452, 464);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(22, 20);
-            this.textBox2.TabIndex = 312;
+            this.diplomacy_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.diplomacy_ability1.Location = new System.Drawing.Point(452, 464);
+            this.diplomacy_ability1.Name = "diplomacy_ability1";
+            this.diplomacy_ability1.Size = new System.Drawing.Size(22, 20);
+            this.diplomacy_ability1.TabIndex = 312;
             // 
-            // textBox3
+            // climb_ability1
             // 
-            this.textBox3.BackColor = System.Drawing.Color.LightGray;
-            this.textBox3.Location = new System.Drawing.Point(452, 438);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(22, 20);
-            this.textBox3.TabIndex = 310;
+            this.climb_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.climb_ability1.Location = new System.Drawing.Point(452, 438);
+            this.climb_ability1.Name = "climb_ability1";
+            this.climb_ability1.Size = new System.Drawing.Size(22, 20);
+            this.climb_ability1.TabIndex = 310;
             // 
-            // textBox4
+            // diplomacy_box1
             // 
-            this.textBox4.Location = new System.Drawing.Point(410, 464);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(22, 20);
-            this.textBox4.TabIndex = 307;
+            this.diplomacy_box1.Location = new System.Drawing.Point(410, 464);
+            this.diplomacy_box1.Name = "diplomacy_box1";
+            this.diplomacy_box1.Size = new System.Drawing.Size(22, 20);
+            this.diplomacy_box1.TabIndex = 307;
             // 
-            // textBox5
+            // climb_box1
             // 
-            this.textBox5.Location = new System.Drawing.Point(410, 438);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(22, 20);
-            this.textBox5.TabIndex = 306;
+            this.climb_box1.Location = new System.Drawing.Point(410, 438);
+            this.climb_box1.Name = "climb_box1";
+            this.climb_box1.Size = new System.Drawing.Size(22, 20);
+            this.climb_box1.TabIndex = 306;
             // 
-            // textBox6
+            // diplomacy_total1
             // 
-            this.textBox6.BackColor = System.Drawing.Color.LightGray;
-            this.textBox6.Location = new System.Drawing.Point(367, 464);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(22, 20);
-            this.textBox6.TabIndex = 305;
+            this.diplomacy_total1.BackColor = System.Drawing.Color.LightGray;
+            this.diplomacy_total1.Location = new System.Drawing.Point(367, 464);
+            this.diplomacy_total1.Name = "diplomacy_total1";
+            this.diplomacy_total1.Size = new System.Drawing.Size(22, 20);
+            this.diplomacy_total1.TabIndex = 305;
             // 
-            // textBox7
+            // climb_total1
             // 
-            this.textBox7.BackColor = System.Drawing.Color.LightGray;
-            this.textBox7.Location = new System.Drawing.Point(367, 438);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(22, 20);
-            this.textBox7.TabIndex = 304;
+            this.climb_total1.BackColor = System.Drawing.Color.LightGray;
+            this.climb_total1.Location = new System.Drawing.Point(367, 438);
+            this.climb_total1.Name = "climb_total1";
+            this.climb_total1.Size = new System.Drawing.Size(22, 20);
+            this.climb_total1.TabIndex = 304;
             // 
-            // textBox8
+            // bluff_ability1
             // 
-            this.textBox8.BackColor = System.Drawing.Color.LightGray;
-            this.textBox8.Location = new System.Drawing.Point(452, 412);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(22, 20);
-            this.textBox8.TabIndex = 300;
+            this.bluff_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.bluff_ability1.Location = new System.Drawing.Point(452, 412);
+            this.bluff_ability1.Name = "bluff_ability1";
+            this.bluff_ability1.Size = new System.Drawing.Size(22, 20);
+            this.bluff_ability1.TabIndex = 300;
             // 
-            // textBox9
+            // appraise_ability1
             // 
-            this.textBox9.BackColor = System.Drawing.Color.LightGray;
-            this.textBox9.Location = new System.Drawing.Point(452, 386);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(22, 20);
-            this.textBox9.TabIndex = 298;
+            this.appraise_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.appraise_ability1.Location = new System.Drawing.Point(452, 386);
+            this.appraise_ability1.Name = "appraise_ability1";
+            this.appraise_ability1.Size = new System.Drawing.Size(22, 20);
+            this.appraise_ability1.TabIndex = 298;
             // 
-            // textBox10
+            // acrobatics_ability1
             // 
-            this.textBox10.BackColor = System.Drawing.Color.LightGray;
-            this.textBox10.Location = new System.Drawing.Point(452, 360);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(22, 20);
-            this.textBox10.TabIndex = 296;
+            this.acrobatics_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.acrobatics_ability1.Location = new System.Drawing.Point(452, 360);
+            this.acrobatics_ability1.Name = "acrobatics_ability1";
+            this.acrobatics_ability1.Size = new System.Drawing.Size(22, 20);
+            this.acrobatics_ability1.TabIndex = 296;
             // 
-            // textBox11
+            // bluff_box1
             // 
-            this.textBox11.Location = new System.Drawing.Point(410, 412);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(22, 20);
-            this.textBox11.TabIndex = 292;
+            this.bluff_box1.Location = new System.Drawing.Point(410, 412);
+            this.bluff_box1.Name = "bluff_box1";
+            this.bluff_box1.Size = new System.Drawing.Size(22, 20);
+            this.bluff_box1.TabIndex = 292;
             // 
-            // textBox12
+            // appraise_box1
             // 
-            this.textBox12.Location = new System.Drawing.Point(410, 386);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(22, 20);
-            this.textBox12.TabIndex = 291;
+            this.appraise_box1.Location = new System.Drawing.Point(410, 386);
+            this.appraise_box1.Name = "appraise_box1";
+            this.appraise_box1.Size = new System.Drawing.Size(22, 20);
+            this.appraise_box1.TabIndex = 291;
             // 
-            // textBox13
+            // acrobatics_box1
             // 
-            this.textBox13.Location = new System.Drawing.Point(410, 360);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(22, 20);
-            this.textBox13.TabIndex = 290;
+            this.acrobatics_box1.Location = new System.Drawing.Point(410, 360);
+            this.acrobatics_box1.Name = "acrobatics_box1";
+            this.acrobatics_box1.Size = new System.Drawing.Size(22, 20);
+            this.acrobatics_box1.TabIndex = 290;
             // 
-            // textBox14
+            // bluff_total1
             // 
-            this.textBox14.BackColor = System.Drawing.Color.LightGray;
-            this.textBox14.Location = new System.Drawing.Point(367, 412);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(22, 20);
-            this.textBox14.TabIndex = 289;
+            this.bluff_total1.BackColor = System.Drawing.Color.LightGray;
+            this.bluff_total1.Location = new System.Drawing.Point(367, 412);
+            this.bluff_total1.Name = "bluff_total1";
+            this.bluff_total1.Size = new System.Drawing.Size(22, 20);
+            this.bluff_total1.TabIndex = 289;
             // 
-            // textBox15
+            // appraise_total1
             // 
-            this.textBox15.BackColor = System.Drawing.Color.LightGray;
-            this.textBox15.Location = new System.Drawing.Point(367, 386);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(22, 20);
-            this.textBox15.TabIndex = 288;
+            this.appraise_total1.BackColor = System.Drawing.Color.LightGray;
+            this.appraise_total1.Location = new System.Drawing.Point(367, 386);
+            this.appraise_total1.Name = "appraise_total1";
+            this.appraise_total1.Size = new System.Drawing.Size(22, 20);
+            this.appraise_total1.TabIndex = 288;
             // 
-            // textBox16
+            // acrobatics_total1
             // 
-            this.textBox16.BackColor = System.Drawing.Color.LightGray;
-            this.textBox16.Location = new System.Drawing.Point(367, 360);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(22, 20);
-            this.textBox16.TabIndex = 287;
+            this.acrobatics_total1.BackColor = System.Drawing.Color.LightGray;
+            this.acrobatics_total1.Location = new System.Drawing.Point(367, 360);
+            this.acrobatics_total1.Name = "acrobatics_total1";
+            this.acrobatics_total1.Size = new System.Drawing.Size(22, 20);
+            this.acrobatics_total1.TabIndex = 287;
             // 
-            // textBox17
+            // rab1
             // 
-            this.textBox17.BackColor = System.Drawing.Color.LightGray;
-            this.textBox17.Location = new System.Drawing.Point(137, 515);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(22, 20);
-            this.textBox17.TabIndex = 282;
+            this.rab1.BackColor = System.Drawing.Color.LightGray;
+            this.rab1.Location = new System.Drawing.Point(137, 515);
+            this.rab1.Name = "rab1";
+            this.rab1.Size = new System.Drawing.Size(22, 20);
+            this.rab1.TabIndex = 282;
             // 
-            // textBox18
+            // mab1
             // 
-            this.textBox18.BackColor = System.Drawing.Color.LightGray;
-            this.textBox18.Location = new System.Drawing.Point(137, 489);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(22, 20);
-            this.textBox18.TabIndex = 280;
+            this.mab1.BackColor = System.Drawing.Color.LightGray;
+            this.mab1.Location = new System.Drawing.Point(137, 489);
+            this.mab1.Name = "mab1";
+            this.mab1.Size = new System.Drawing.Size(22, 20);
+            this.mab1.TabIndex = 280;
             // 
-            // textBox19
+            // bab_box1
             // 
-            this.textBox19.Location = new System.Drawing.Point(137, 463);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(22, 20);
-            this.textBox19.TabIndex = 278;
+            this.bab_box1.Location = new System.Drawing.Point(137, 463);
+            this.bab_box1.Name = "bab_box1";
+            this.bab_box1.Size = new System.Drawing.Size(22, 20);
+            this.bab_box1.TabIndex = 278;
             // 
-            // textBox20
+            // will_ability1
             // 
-            this.textBox20.BackColor = System.Drawing.Color.LightGray;
-            this.textBox20.Location = new System.Drawing.Point(156, 424);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(22, 20);
-            this.textBox20.TabIndex = 275;
+            this.will_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.will_ability1.Location = new System.Drawing.Point(156, 424);
+            this.will_ability1.Name = "will_ability1";
+            this.will_ability1.Size = new System.Drawing.Size(22, 20);
+            this.will_ability1.TabIndex = 275;
             // 
-            // textBox21
+            // reflex_ability1
             // 
-            this.textBox21.BackColor = System.Drawing.Color.LightGray;
-            this.textBox21.Location = new System.Drawing.Point(156, 398);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(22, 20);
-            this.textBox21.TabIndex = 273;
+            this.reflex_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.reflex_ability1.Location = new System.Drawing.Point(156, 398);
+            this.reflex_ability1.Name = "reflex_ability1";
+            this.reflex_ability1.Size = new System.Drawing.Size(22, 20);
+            this.reflex_ability1.TabIndex = 273;
             // 
-            // textBox22
+            // fort_ability1
             // 
-            this.textBox22.BackColor = System.Drawing.Color.LightGray;
-            this.textBox22.Location = new System.Drawing.Point(156, 372);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(22, 20);
-            this.textBox22.TabIndex = 271;
+            this.fort_ability1.BackColor = System.Drawing.Color.LightGray;
+            this.fort_ability1.Location = new System.Drawing.Point(156, 372);
+            this.fort_ability1.Name = "fort_ability1";
+            this.fort_ability1.Size = new System.Drawing.Size(22, 20);
+            this.fort_ability1.TabIndex = 271;
             // 
-            // textBox23
+            // will_box1
             // 
-            this.textBox23.Location = new System.Drawing.Point(114, 424);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(22, 20);
-            this.textBox23.TabIndex = 267;
+            this.will_box1.Location = new System.Drawing.Point(114, 424);
+            this.will_box1.Name = "will_box1";
+            this.will_box1.Size = new System.Drawing.Size(22, 20);
+            this.will_box1.TabIndex = 267;
             // 
-            // textBox24
+            // reflex_box1
             // 
-            this.textBox24.Location = new System.Drawing.Point(114, 398);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(22, 20);
-            this.textBox24.TabIndex = 266;
+            this.reflex_box1.Location = new System.Drawing.Point(114, 398);
+            this.reflex_box1.Name = "reflex_box1";
+            this.reflex_box1.Size = new System.Drawing.Size(22, 20);
+            this.reflex_box1.TabIndex = 266;
             // 
-            // textBox25
+            // fort_box1
             // 
-            this.textBox25.Location = new System.Drawing.Point(114, 372);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(22, 20);
-            this.textBox25.TabIndex = 265;
+            this.fort_box1.Location = new System.Drawing.Point(114, 372);
+            this.fort_box1.Name = "fort_box1";
+            this.fort_box1.Size = new System.Drawing.Size(22, 20);
+            this.fort_box1.TabIndex = 265;
             // 
-            // textBox26
+            // will_total1
             // 
-            this.textBox26.BackColor = System.Drawing.Color.LightGray;
-            this.textBox26.Location = new System.Drawing.Point(71, 424);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(22, 20);
-            this.textBox26.TabIndex = 264;
+            this.will_total1.BackColor = System.Drawing.Color.LightGray;
+            this.will_total1.Location = new System.Drawing.Point(71, 424);
+            this.will_total1.Name = "will_total1";
+            this.will_total1.Size = new System.Drawing.Size(22, 20);
+            this.will_total1.TabIndex = 264;
             // 
-            // textBox27
+            // reflex_total1
             // 
-            this.textBox27.BackColor = System.Drawing.Color.LightGray;
-            this.textBox27.Location = new System.Drawing.Point(71, 398);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(22, 20);
-            this.textBox27.TabIndex = 263;
+            this.reflex_total1.BackColor = System.Drawing.Color.LightGray;
+            this.reflex_total1.Location = new System.Drawing.Point(71, 398);
+            this.reflex_total1.Name = "reflex_total1";
+            this.reflex_total1.Size = new System.Drawing.Size(22, 20);
+            this.reflex_total1.TabIndex = 263;
             // 
-            // textBox28
+            // fort_total1
             // 
-            this.textBox28.BackColor = System.Drawing.Color.LightGray;
-            this.textBox28.Location = new System.Drawing.Point(71, 372);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(22, 20);
-            this.textBox28.TabIndex = 262;
+            this.fort_total1.BackColor = System.Drawing.Color.LightGray;
+            this.fort_total1.Location = new System.Drawing.Point(71, 372);
+            this.fort_total1.Name = "fort_total1";
+            this.fort_total1.Size = new System.Drawing.Size(22, 20);
+            this.fort_total1.TabIndex = 262;
             // 
-            // textBox29
+            // ac_natural1
             // 
-            this.textBox29.Location = new System.Drawing.Point(221, 337);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(22, 20);
-            this.textBox29.TabIndex = 257;
+            this.ac_natural1.Location = new System.Drawing.Point(221, 337);
+            this.ac_natural1.Name = "ac_natural1";
+            this.ac_natural1.Size = new System.Drawing.Size(22, 20);
+            this.ac_natural1.TabIndex = 257;
             // 
-            // textBox30
+            // ac_shield1
             // 
-            this.textBox30.Location = new System.Drawing.Point(180, 337);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(22, 20);
-            this.textBox30.TabIndex = 254;
+            this.ac_shield1.Location = new System.Drawing.Point(180, 337);
+            this.ac_shield1.Name = "ac_shield1";
+            this.ac_shield1.Size = new System.Drawing.Size(22, 20);
+            this.ac_shield1.TabIndex = 254;
             // 
-            // textBox31
+            // ac_armor1
             // 
-            this.textBox31.Location = new System.Drawing.Point(137, 337);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(22, 20);
-            this.textBox31.TabIndex = 253;
+            this.ac_armor1.Location = new System.Drawing.Point(137, 337);
+            this.ac_armor1.Name = "ac_armor1";
+            this.ac_armor1.Size = new System.Drawing.Size(22, 20);
+            this.ac_armor1.TabIndex = 253;
             // 
             // textBox32
             // 
@@ -1723,178 +1726,180 @@
             this.textBox32.TabIndex = 252;
             this.textBox32.Text = "10";
             // 
-            // textBox33
+            // ac_total1
             // 
-            this.textBox33.BackColor = System.Drawing.Color.LightGray;
-            this.textBox33.Location = new System.Drawing.Point(49, 337);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(22, 20);
-            this.textBox33.TabIndex = 250;
+            this.ac_total1.BackColor = System.Drawing.Color.LightGray;
+            this.ac_total1.Location = new System.Drawing.Point(49, 337);
+            this.ac_total1.Name = "ac_total1";
+            this.ac_total1.Size = new System.Drawing.Size(22, 20);
+            this.ac_total1.TabIndex = 250;
             // 
-            // textBox34
+            // hp_box1
             // 
-            this.textBox34.Location = new System.Drawing.Point(245, 261);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(50, 20);
-            this.textBox34.TabIndex = 247;
+            this.hp_box1.Location = new System.Drawing.Point(245, 261);
+            this.hp_box1.Name = "hp_box1";
+            this.hp_box1.Size = new System.Drawing.Size(50, 20);
+            this.hp_box1.TabIndex = 247;
             // 
-            // textBox35
+            // speed_box1
             // 
-            this.textBox35.Location = new System.Drawing.Point(180, 287);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(50, 20);
-            this.textBox35.TabIndex = 245;
+            this.speed_box1.Location = new System.Drawing.Point(180, 287);
+            this.speed_box1.Name = "speed_box1";
+            this.speed_box1.Size = new System.Drawing.Size(50, 20);
+            this.speed_box1.TabIndex = 245;
             // 
-            // richTextBox1
+            // description_box1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(316, 174);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(160, 133);
-            this.richTextBox1.TabIndex = 243;
-            this.richTextBox1.Text = "";
+            this.description_box1.Location = new System.Drawing.Point(316, 174);
+            this.description_box1.Name = "description_box1";
+            this.description_box1.Size = new System.Drawing.Size(160, 133);
+            this.description_box1.TabIndex = 243;
+            this.description_box1.Text = "";
             // 
-            // textBox36
+            // alignment_box1
             // 
-            this.textBox36.Location = new System.Drawing.Point(180, 261);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(50, 20);
-            this.textBox36.TabIndex = 241;
+            this.alignment_box1.Location = new System.Drawing.Point(180, 261);
+            this.alignment_box1.Name = "alignment_box1";
+            this.alignment_box1.Size = new System.Drawing.Size(50, 20);
+            this.alignment_box1.TabIndex = 241;
             // 
-            // textBox37
+            // size_box1
             // 
-            this.textBox37.Location = new System.Drawing.Point(180, 235);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(50, 20);
-            this.textBox37.TabIndex = 239;
+            this.size_box1.Location = new System.Drawing.Point(180, 235);
+            this.size_box1.Name = "size_box1";
+            this.size_box1.Size = new System.Drawing.Size(50, 20);
+            this.size_box1.TabIndex = 239;
             // 
-            // textBox38
+            // race_box1
             // 
-            this.textBox38.Location = new System.Drawing.Point(180, 209);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(100, 20);
-            this.textBox38.TabIndex = 237;
+            this.race_box1.Location = new System.Drawing.Point(180, 209);
+            this.race_box1.Name = "race_box1";
+            this.race_box1.Size = new System.Drawing.Size(100, 20);
+            this.race_box1.TabIndex = 237;
             // 
-            // textBox39
+            // class_box1
             // 
-            this.textBox39.Location = new System.Drawing.Point(180, 183);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(100, 20);
-            this.textBox39.TabIndex = 234;
+            this.class_box1.Location = new System.Drawing.Point(180, 183);
+            this.class_box1.Name = "class_box1";
+            this.class_box1.Size = new System.Drawing.Size(100, 20);
+            this.class_box1.TabIndex = 234;
             // 
-            // textBox40
+            // name_box1
             // 
-            this.textBox40.Location = new System.Drawing.Point(180, 157);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(100, 20);
-            this.textBox40.TabIndex = 232;
+            this.name_box1.Location = new System.Drawing.Point(180, 157);
+            this.name_box1.Name = "name_box1";
+            this.name_box1.Size = new System.Drawing.Size(100, 20);
+            this.name_box1.TabIndex = 232;
             // 
-            // textBox41
+            // cha_mod1
             // 
-            this.textBox41.BackColor = System.Drawing.Color.LightGray;
-            this.textBox41.Location = new System.Drawing.Point(78, 287);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(22, 20);
-            this.textBox41.TabIndex = 231;
+            this.cha_mod1.BackColor = System.Drawing.Color.LightGray;
+            this.cha_mod1.Location = new System.Drawing.Point(78, 287);
+            this.cha_mod1.Name = "cha_mod1";
+            this.cha_mod1.Size = new System.Drawing.Size(22, 20);
+            this.cha_mod1.TabIndex = 231;
             // 
-            // textBox42
+            // wis_mod1
             // 
-            this.textBox42.BackColor = System.Drawing.Color.LightGray;
-            this.textBox42.Location = new System.Drawing.Point(78, 261);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(22, 20);
-            this.textBox42.TabIndex = 230;
+            this.wis_mod1.BackColor = System.Drawing.Color.LightGray;
+            this.wis_mod1.Location = new System.Drawing.Point(78, 261);
+            this.wis_mod1.Name = "wis_mod1";
+            this.wis_mod1.Size = new System.Drawing.Size(22, 20);
+            this.wis_mod1.TabIndex = 230;
             // 
-            // textBox43
+            // int_mod1
             // 
-            this.textBox43.BackColor = System.Drawing.Color.LightGray;
-            this.textBox43.Location = new System.Drawing.Point(78, 235);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(22, 20);
-            this.textBox43.TabIndex = 229;
+            this.int_mod1.BackColor = System.Drawing.Color.LightGray;
+            this.int_mod1.Location = new System.Drawing.Point(78, 235);
+            this.int_mod1.Name = "int_mod1";
+            this.int_mod1.Size = new System.Drawing.Size(22, 20);
+            this.int_mod1.TabIndex = 229;
             // 
-            // textBox44
+            // con_mod1
             // 
-            this.textBox44.BackColor = System.Drawing.Color.LightGray;
-            this.textBox44.Location = new System.Drawing.Point(78, 209);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(22, 20);
-            this.textBox44.TabIndex = 228;
+            this.con_mod1.BackColor = System.Drawing.Color.LightGray;
+            this.con_mod1.Location = new System.Drawing.Point(78, 209);
+            this.con_mod1.Name = "con_mod1";
+            this.con_mod1.Size = new System.Drawing.Size(22, 20);
+            this.con_mod1.TabIndex = 228;
             // 
-            // textBox45
+            // dex_mod1
             // 
-            this.textBox45.BackColor = System.Drawing.Color.LightGray;
-            this.textBox45.Location = new System.Drawing.Point(78, 183);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(22, 20);
-            this.textBox45.TabIndex = 227;
+            this.dex_mod1.BackColor = System.Drawing.Color.LightGray;
+            this.dex_mod1.Location = new System.Drawing.Point(78, 183);
+            this.dex_mod1.Name = "dex_mod1";
+            this.dex_mod1.Size = new System.Drawing.Size(22, 20);
+            this.dex_mod1.TabIndex = 227;
             // 
-            // textBox46
+            // str_mod1
             // 
-            this.textBox46.BackColor = System.Drawing.Color.LightGray;
-            this.textBox46.Location = new System.Drawing.Point(78, 157);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(22, 20);
-            this.textBox46.TabIndex = 226;
+            this.str_mod1.BackColor = System.Drawing.Color.LightGray;
+            this.str_mod1.Location = new System.Drawing.Point(78, 157);
+            this.str_mod1.Name = "str_mod1";
+            this.str_mod1.Size = new System.Drawing.Size(22, 20);
+            this.str_mod1.TabIndex = 226;
             // 
-            // textBox47
+            // CHA1
             // 
-            this.textBox47.Location = new System.Drawing.Point(50, 287);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(22, 20);
-            this.textBox47.TabIndex = 225;
+            this.CHA1.Location = new System.Drawing.Point(50, 287);
+            this.CHA1.Name = "CHA1";
+            this.CHA1.Size = new System.Drawing.Size(22, 20);
+            this.CHA1.TabIndex = 225;
             // 
-            // textBox48
+            // WIS1
             // 
-            this.textBox48.Location = new System.Drawing.Point(50, 261);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(22, 20);
-            this.textBox48.TabIndex = 224;
+            this.WIS1.Location = new System.Drawing.Point(50, 261);
+            this.WIS1.Name = "WIS1";
+            this.WIS1.Size = new System.Drawing.Size(22, 20);
+            this.WIS1.TabIndex = 224;
             // 
-            // textBox49
+            // INT1
             // 
-            this.textBox49.Location = new System.Drawing.Point(49, 235);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(22, 20);
-            this.textBox49.TabIndex = 223;
+            this.INT1.Location = new System.Drawing.Point(49, 235);
+            this.INT1.Name = "INT1";
+            this.INT1.Size = new System.Drawing.Size(22, 20);
+            this.INT1.TabIndex = 223;
             // 
-            // textBox50
+            // CON1
             // 
-            this.textBox50.Location = new System.Drawing.Point(49, 209);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(22, 20);
-            this.textBox50.TabIndex = 222;
+            this.CON1.Location = new System.Drawing.Point(49, 209);
+            this.CON1.Name = "CON1";
+            this.CON1.Size = new System.Drawing.Size(22, 20);
+            this.CON1.TabIndex = 222;
             // 
-            // textBox51
+            // DEX1
             // 
-            this.textBox51.Location = new System.Drawing.Point(50, 183);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(22, 20);
-            this.textBox51.TabIndex = 214;
+            this.DEX1.Location = new System.Drawing.Point(50, 183);
+            this.DEX1.Name = "DEX1";
+            this.DEX1.Size = new System.Drawing.Size(22, 20);
+            this.DEX1.TabIndex = 214;
             // 
-            // textBox52
+            // STR1
             // 
-            this.textBox52.Location = new System.Drawing.Point(50, 157);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(22, 20);
-            this.textBox52.TabIndex = 213;
+            this.STR1.Location = new System.Drawing.Point(50, 157);
+            this.STR1.Name = "STR1";
+            this.STR1.Size = new System.Drawing.Size(22, 20);
+            this.STR1.TabIndex = 213;
             // 
-            // button1
+            // calculate_tab2
             // 
-            this.button1.Location = new System.Drawing.Point(307, 508);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 216;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
+            this.calculate_tab2.Location = new System.Drawing.Point(307, 508);
+            this.calculate_tab2.Name = "calculate_tab2";
+            this.calculate_tab2.Size = new System.Drawing.Size(75, 23);
+            this.calculate_tab2.TabIndex = 216;
+            this.calculate_tab2.Text = "Calculate";
+            this.calculate_tab2.UseVisualStyleBackColor = true;
+            this.calculate_tab2.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button2
+            // save_tab2
             // 
-            this.button2.Location = new System.Drawing.Point(399, 508);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 212;
-            this.button2.Text = "Save";
-            this.button2.UseVisualStyleBackColor = true;
+            this.save_tab2.Location = new System.Drawing.Point(399, 508);
+            this.save_tab2.Name = "save_tab2";
+            this.save_tab2.Size = new System.Drawing.Size(75, 23);
+            this.save_tab2.TabIndex = 212;
+            this.save_tab2.Text = "Save";
+            this.save_tab2.UseVisualStyleBackColor = true;
+            this.save_tab2.Click += new System.EventHandler(this.save_tab2_Click);
             // 
             // label3
             // 
@@ -2397,6 +2402,16 @@
             this.label98.Text = "STR";
             this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(221, 508);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 317;
+            this.button1.Text = "Load";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2404,7 +2419,6 @@
             this.ClientSize = new System.Drawing.Size(513, 639);
             this.Controls.Add(this.newBtn);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.load);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -2535,61 +2549,61 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox ac_ability1;
+        private System.Windows.Forms.TextBox diplomacy_ability1;
+        private System.Windows.Forms.TextBox climb_ability1;
+        private System.Windows.Forms.TextBox diplomacy_box1;
+        private System.Windows.Forms.TextBox climb_box1;
+        private System.Windows.Forms.TextBox diplomacy_total1;
+        private System.Windows.Forms.TextBox climb_total1;
+        private System.Windows.Forms.TextBox bluff_ability1;
+        private System.Windows.Forms.TextBox appraise_ability1;
+        private System.Windows.Forms.TextBox acrobatics_ability1;
+        private System.Windows.Forms.TextBox bluff_box1;
+        private System.Windows.Forms.TextBox appraise_box1;
+        private System.Windows.Forms.TextBox acrobatics_box1;
+        private System.Windows.Forms.TextBox bluff_total1;
+        private System.Windows.Forms.TextBox appraise_total1;
+        private System.Windows.Forms.TextBox acrobatics_total1;
+        private System.Windows.Forms.TextBox rab1;
+        private System.Windows.Forms.TextBox mab1;
+        private System.Windows.Forms.TextBox bab_box1;
+        private System.Windows.Forms.TextBox will_ability1;
+        private System.Windows.Forms.TextBox reflex_ability1;
+        private System.Windows.Forms.TextBox fort_ability1;
+        private System.Windows.Forms.TextBox will_box1;
+        private System.Windows.Forms.TextBox reflex_box1;
+        private System.Windows.Forms.TextBox fort_box1;
+        private System.Windows.Forms.TextBox will_total1;
+        private System.Windows.Forms.TextBox reflex_total1;
+        private System.Windows.Forms.TextBox fort_total1;
+        private System.Windows.Forms.TextBox ac_natural1;
+        private System.Windows.Forms.TextBox ac_shield1;
+        private System.Windows.Forms.TextBox ac_armor1;
         private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox52;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox ac_total1;
+        private System.Windows.Forms.TextBox hp_box1;
+        private System.Windows.Forms.TextBox speed_box1;
+        private System.Windows.Forms.RichTextBox description_box1;
+        private System.Windows.Forms.TextBox alignment_box1;
+        private System.Windows.Forms.TextBox size_box1;
+        private System.Windows.Forms.TextBox race_box1;
+        private System.Windows.Forms.TextBox class_box1;
+        private System.Windows.Forms.TextBox name_box1;
+        private System.Windows.Forms.TextBox cha_mod1;
+        private System.Windows.Forms.TextBox wis_mod1;
+        private System.Windows.Forms.TextBox int_mod1;
+        private System.Windows.Forms.TextBox con_mod1;
+        private System.Windows.Forms.TextBox dex_mod1;
+        private System.Windows.Forms.TextBox str_mod1;
+        private System.Windows.Forms.TextBox CHA1;
+        private System.Windows.Forms.TextBox WIS1;
+        private System.Windows.Forms.TextBox INT1;
+        private System.Windows.Forms.TextBox CON1;
+        private System.Windows.Forms.TextBox DEX1;
+        private System.Windows.Forms.TextBox STR1;
+        private System.Windows.Forms.Button calculate_tab2;
+        private System.Windows.Forms.Button save_tab2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
@@ -2638,6 +2652,7 @@
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.Label label97;
         private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Button button1;
     }
 }
 
