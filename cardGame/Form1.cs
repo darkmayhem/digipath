@@ -94,7 +94,6 @@ namespace cardGame
         private void calculate_Click(object sender, EventArgs e)
         {
             save.Enabled = true;
-
             
             sh.str = Int32.Parse(STR.Text);
             sh.dex = Int32.Parse(DEX.Text);
@@ -123,7 +122,7 @@ namespace cardGame
             sh.climb = Int32.Parse(climb_box.Text);
             sh.diplomacy = Int32.Parse(diplomacy_box.Text);
 
-            sh.modifiers();
+            sh.modifiersCalculation();
             //ispunjavanje forme
             str_mod.Text = sh.str_mod.ToString();
             dex_mod.Text = sh.dex_mod.ToString();
@@ -258,8 +257,58 @@ namespace cardGame
                     }
                     //upisivanje u formu
                     name_box.Text = sh.name;
+                    alignment_box.Text = sh.alignment;
+                    race_box.Text = sh.race;
+                    size_box.Text = sh.size;
+                    description_box.Text = sh.description;
+                    speed_box.Text = sh.speed.ToString();
+                    STR.Text = sh.str.ToString();
+                    DEX.Text = sh.dex.ToString();
+                    CON.Text = sh.con.ToString();
+                    INT.Text = sh.intelligence.ToString();
+                    WIS.Text = sh.wis.ToString();
+                    CHA.Text = sh.charisma.ToString();
+                    hp_box.Text = sh.hp.ToString();
+                    ac_armor.Text = sh.ac_armor.ToString();
+                    ac_shield.Text = sh.ac_shield.ToString();
+                    ac_natural.Text = sh.ac_natural.ToString();
+                    fort_box.Text = sh.fortitude.ToString();
+                    reflex_box.Text = sh.reflex.ToString();
+                    will_box.Text = sh.will.ToString();
+                    bab_box.Text = sh.bab.ToString();
+                    acrobatics_box.Text = sh.acrobatics.ToString();
+                    appraise_box.Text = sh.appraise.ToString();
+                    bluff_box.Text = sh.bluff.ToString();
+                    climb_box.Text = sh.climb.ToString();
+                    diplomacy_box.Text = sh.diplomacy.ToString();
 
+                    str_mod.Text = sh.str_mod.ToString();
+                    dex_mod.Text = sh.dex_mod.ToString();
+                    con_mod.Text = sh.con_mod.ToString();
+                    int_mod.Text = sh.int_mod.ToString();
+                    wis_mod.Text = sh.wis_mod.ToString();
+                    cha_mod.Text = sh.cha_mod.ToString();
+                    ac_ability.Text = dex_mod.Text;
+                    fort_ability.Text = con_mod.Text;
+                    reflex_ability.Text = dex_mod.Text;
+                    will_ability.Text = wis_mod.Text;
+                    mab.Text = (sh.bab + sh.str_mod).ToString();
+                    rab.Text = (sh.bab + sh.dex_mod).ToString();
+                    acrobatics_ability.Text = dex_mod.Text;
+                    appraise_ability.Text = int_mod.Text;
+                    bluff_ability.Text = cha_mod.Text;
+                    climb_ability.Text = str_mod.Text;
+                    diplomacy_ability.Text = cha_mod.Text;
 
+                    ac_total.Text = (sh.ac_armor + sh.ac_natural + sh.ac_shield + 10 + sh.dex_mod).ToString();
+                    fort_total.Text = (sh.fortitude + sh.con_mod).ToString();
+                    reflex_total.Text = (sh.reflex + sh.dex_mod).ToString();
+                    will_total.Text = (sh.will + sh.wis_mod).ToString();
+                    acrobatics_total.Text = (sh.acrobatics + sh.dex_mod).ToString();
+                    appraise_total.Text = (sh.appraise + sh.int_mod).ToString();
+                    bluff_total.Text = (sh.bluff + sh.cha_mod).ToString();
+                    climb_total.Text = (sh.climb + sh.str_mod).ToString();
+                    diplomacy_total.Text = (sh.diplomacy + sh.cha_mod).ToString();
                     //nakon upisa
                     save.Enabled = true;
                 }
@@ -304,7 +353,7 @@ namespace cardGame
             public double wis_mod;
             public double cha_mod;
 
-            public void modifiers()
+            public void modifiersCalculation()
             {
                 str_mod = Math.Floor((str - 10) / 2);
                 dex_mod = Math.Floor((dex - 10) / 2);
@@ -312,6 +361,11 @@ namespace cardGame
                 int_mod = Math.Floor((intelligence - 10) / 2);
                 wis_mod = Math.Floor((wis - 10) / 2);
                 cha_mod = Math.Floor((charisma - 10) / 2);
+            }
+            
+            public void fillBlanks()
+            {
+                
             }
             
         }
